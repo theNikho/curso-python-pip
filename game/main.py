@@ -1,9 +1,5 @@
 import random
 
-#Comentario de prueba
-
-print('Hola mundo')
-
 def choose_options():
   options = ('piedra', 'papel', 'tijera')
   user_option = input('piedra, papel o tijera => ')
@@ -75,5 +71,5 @@ def run_game():
     if user_wins == 2:
       print('El ganador es el usuario')
       break
-#Un nuevo comentario
+
 run_game()
